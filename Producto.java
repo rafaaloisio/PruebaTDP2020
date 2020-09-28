@@ -1,13 +1,16 @@
 public class Producto {
 	private String nombre;
 	private float valor;
+
 	private int codigoProducto;
 	
 	
 	public Producto(String nombre) {
 		this.nombre = nombre;
 		this.valor = 0;
+
 		this.codigoProducto = 10;
+		
 	}
 	
 	public Producto(String nombre, int valor) {
